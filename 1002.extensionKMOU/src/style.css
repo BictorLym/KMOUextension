@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'BMHANNAAir';
+    src:url('./fonts/BMHANNAAir.woff') format('woff');
+} 
+@font-face {
+    font-family: 'BMEuljiro10yearslater';
+    src:url('./fonts/BMEuljiro10yearslater.woff') format('woff');
+}
+@font-face {
+    font-family: 'BMDOHYEON';
+    src:url('./fonts/BMDOHYEON.ttf') format('woff');
+} 
+@font-face {
+    font-family: 'BMEuljirooraeorae';
+    src:url('./fonts/BMEuljirooraeorae.woff') format('woff');
+} 
+@font-face {
+    font-family: 'BMHANNA_11yrs';
+    src:url('./fonts/BMHANNA_11yrs.woff') format('woff');
+} 
+@font-face {
+    font-family: 'BMHANNAPro';
+    src:url('./fonts/BMHANNAPro.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BMJUA';
+    src:url('./fonts/BMJUA.woff') format('woff');
+} 
+@font-face {
+    font-family: 'BMKIRANGHAERANG';
+    src:url('./fonts/BMKIRANGHAERANG.woff') format('woff');
+} 
+@font-face {
+    font-family: 'BMYEONSUNG';
+    src:url('./fonts/BMYEONSUNG.woff') format('woff');
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    font-family: 'BMHANNAPro';
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        text-align: center;
+        font-family: 'BMHANNAPro';
+        background: #000;
+        color     : #fff;
+    }
+}
+body {
+    font-family: 'BMHANNAPro';
+    width     : 310px;
+    min-height: 180px;
+    margin    : 5px;
+    background: #fff;
+    color     : #000;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        font-family: 'BMHANNAPro';
+        width     : 270px;
+        min-height: 180px;
+        margin    : 5px;
+        background: #000;
+        color     : #fff;
+    }
+}
+
+img {
+    width        : 30px;
+    height       : 30px;
+    border-radius: 5px;
+    padding      : 5px;
+}
+
+img.icon-center {
+    display: block;
+    margin : auto;
+}
+
+div.icon-wrapper {
+    width     : 90px;
+    height    : 40px;
+    margin-top: 10px;
+}
+
+span {
+    font-size  : 14px;
+    font-weight: 500;
+    font-family: "BMHANNAAir";
+}
+span.bottom-github{
+    padding:10px;
+    margin-top:15px;
+    font-size :20px;
+}
+span.text-style {
+    margin-top   : auto;
+    margin-bottom: auto;
+    font-weight  : 700;
+}
+
+div.bottom-container {
+    display: inline-flex;
+    margin : 0 35px;
+}
+
+div.icon-container {
+    width     : 90px;
+    height    : 75px;
+    display   : block;
+    cursor    : pointer;
+    text-align: center;
+}
+div.icon-bottom {
+    padding: 5px;
+    margin: 5px;
+    width     : 310px;
+    height    : 15px;
+    
+    text-align: center;
+}
+
+#grid {
+    display              : grid;
+    height               : 80px;
+    grid-template-columns: 80px;
+}
+
+#container {
+    display        : flex;
+    justify-content: flex-start;
+    flex-wrap      : wrap;
+}
+

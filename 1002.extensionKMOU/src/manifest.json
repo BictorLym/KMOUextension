@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "해양대 안내서",
+  "description": "해양대 학생에게 필요한 모든 웹사이트를 모았습니다.",
+  "version": "1.0",
+
+  "browser_action": {
+  	"default_icon": "./icons/icon.png",
+  	"default_popup": "popup.html"
+  },
+  "permissions": [
+  	"activeTab",
+    "storage",
+    "https://www.kmou.ac.kr/",
+    "https://library.kmou.ac.kr/",
+    "https://cyberweb.kmou.ac.kr/",
+    "https://sugang.kmou.ac.kr/",
+    "https://ocean-cts.kmou.ac.kr/",
+    "https://www.everytime.kr"
+  ]  
+}
